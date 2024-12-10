@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: ;
+    --primary-color-rgb: ;
+    --secondary-color: ;
+    --secondary-color-rgb: ;
+    --black: #000;
+    --black-rgb: 0, 0, 0;
+    --white: #fff;
+    --title-font: '';
+    --description-font: '';
+    --fs: 16px;
+    --fw: 400;
+    --lh: 1.5;
+    --gw: 15px;
+}
+.container{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+    background-color: var(--black);
+    color: var(--white);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--gw));
+    margin-right: calc(-1 * var(--gw));
+}
+.col-1{
+    width: 8.3333%;
+}
+.col-2{
+    width: 16.6666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.3333%;
+}
+.col-5{
+    width: 41.6666%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.3333%;
+}
+.col-8{
+    width: 66.6666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.3333%;
+}
+.col-11{
+    width: 91.6666%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+}
+
+
+p{
+    margin: 24px;
+}
